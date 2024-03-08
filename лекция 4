@@ -1,0 +1,17 @@
+практическая 3
+#coding: utf-8
+a = int(input())
+b = int(input())
+c = True
+while d := input():
+    if c:
+        c = a <= int (d) <= b 
+        
+print (c)
+практическая 4
+line = input()
+if "i" in line or "e" in line:
+    "a" in line or "o" in line
+    print (False)
+else:
+    print (True)
