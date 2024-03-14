@@ -1,0 +1,10 @@
+практическая 7 
+a=input()
+b=a.split()
+c= 0
+d= 0
+for x in b:
+    c += len (x)
+    d += 1 
+e = c / d 
+print (round (e, 2))
