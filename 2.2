@@ -1,0 +1,18 @@
+#coding: utf-8
+def a(line):
+    if line[0] == "!":
+        l=line.replace("!","")
+        l=l.upper()
+        l =l.replace("!", "")
+        l =l.replace("@","")
+        l =l.replace("#","")
+        l =l.replace("%","")
+    else:
+        l =line.lower()
+        l =l.replace("!", "")
+        l =l.replace("@","")
+        l =l.replace("#","")
+        l =l.replace("%","")
+    return l
+print(a(input()))
+вк не засчитывает 
